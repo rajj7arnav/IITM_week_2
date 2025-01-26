@@ -22,6 +22,10 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  test:
+    steps:
+      - name: 23f3002537@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
   # Build job
   build:
     runs-on: ubuntu-latest
